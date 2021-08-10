@@ -39,6 +39,7 @@
 #include "../../../../module/motion.h"
 #include "../../../../module/planner.h"
 #include "../../../../inc/MarlinConfig.h"
+#include "../../../../gcode/gcode.h"
 
 #if ENABLED(POWER_LOSS_RECOVERY)
   #include "../../../../feature/powerloss.h"
